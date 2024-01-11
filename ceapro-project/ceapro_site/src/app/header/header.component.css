@@ -12,13 +12,29 @@
     justify-content: space-between;
     width: 75%;
     align-items: center;
-    height: 1.60rem;
+    height: 1rem;
     border-radius: 50px;
     background-color: white;
-    padding: 2rem;
+    padding: 1.5rem;
     box-shadow: 0 3px 10px rgb(67,101,193);
 }
 .logo{
     width: auto;
     height: 1.5rem;
+}
+.login{
+    text-decoration: none;
+    color: rgb(14,17,59);
+    background-color: white;
+    padding: 0.7rem;
+    border-radius: 50px;
+    border: 1px solid lightgray;
+}
+.info{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(67,101,193);
+    padding: 0.7rem;
+    border-radius: 50px;
+    border: 1px solid lightgray;
 }

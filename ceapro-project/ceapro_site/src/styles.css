@@ -3,4 +3,7 @@ body {
     padding: 0 !important;
     border: 0 !important;
     outline: none !important;
+    font-family: 'Futura', sans-serif;
+    font-weight:650;
 }
+
