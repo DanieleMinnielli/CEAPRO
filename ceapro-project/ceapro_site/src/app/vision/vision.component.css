@@ -1,13 +1,19 @@
-.mainPage{
+.main{
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    padding-bottom: 5rem;
+    align-items: center;
+    background-color: rgb(243, 246, 251);
+    width: 75%;
+    height: fit-content;
+    border-radius: 50px;
+    margin-left: 12%;
 }
-.title{
-    display: flex;
-    font-size: 2rem;
-    justify-content: center;
+.img{
+    align-items: center;
+}
+#foto{
+    width: 40rem;
+    height: 30rem;
 }
 .subtitle{
     font-size: 2rem;
@@ -20,11 +26,4 @@
     width: 65%;
     font-size: 1rem;
     font-weight: 100;
-}
-#foto{
-    width: 40rem;
-    height:30rem;
-}
-.text{
-    margin-left: 10rem;
 }

@@ -1,0 +1,26 @@
+.title{
+    display: flex;
+    font-size: 2rem;
+    justify-content: left;
+    margin-top: 10%;
+    margin-left: 12%;
+    text-align: left;
+    font-weight: 700;
+}
+  .main {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 12% 10% 12%;
+  }
+.even {
+    margin-left: auto;
+}
+p{
+    color: rgb(14,17,59);
+    font-weight: 100;
+}
+.subtitle{
+    font-weight: 900;
+    color: rgb(67,101,193);
+}
