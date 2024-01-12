@@ -1,0 +1,44 @@
+.main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(243, 246, 251);
+    width: 73rem;
+    height: 28rem;
+    border-radius: 50px;
+    margin-left: 12%;
+}
+.foto{
+    width: 45rem;
+    height: 35rem;
+    margin: 0 12% 15% 0;
+}
+.text{
+    margin-left: 12%;
+}
+h1{
+    color: rgb(14,17,59);
+    font-size: 2.5rem;
+}
+p{
+    color: rgb(14,17,59);
+    font-weight: 100;
+}
+.metodo{
+    text-decoration: none;
+    color: white;
+    background-color: rgb(67,101,193);
+    padding: 1rem;
+    border-radius: 50px;
+}
+.resultados{
+    text-decoration: none;
+    color: rgb(14,17,59);
+    background-color: #fff;
+    border: 1px solid rgb(14,17,59);
+    padding:1rem;
+    border-radius: 50px;
+}
+.btns{
+    margin-top: 1rem;
+}

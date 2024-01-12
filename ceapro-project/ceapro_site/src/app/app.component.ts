@@ -5,11 +5,12 @@ import { HeaderComponent } from './header/header.component';
 import { NMisionComponent } from './nmision/nmision.component';
 import { VisionComponent } from './vision/vision.component';
 import { ValoresComponent } from './valores/valores.component';
+import { RegistroComponent } from './registro/registro.component';
 
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [CommonModule, RouterOutlet, HeaderComponent, NMisionComponent, VisionComponent, ValoresComponent],
+  imports: [CommonModule, RouterOutlet, HeaderComponent, NMisionComponent, VisionComponent, ValoresComponent, RegistroComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
