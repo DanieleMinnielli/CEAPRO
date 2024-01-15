@@ -1,3 +1,65 @@
 .main{
     margin: 15% 12% auto;
+    display: flex;
+    gap: 40%;
 }
+.contactar{
+    background-color: rgb(249, 233, 204);
+    width: max-content;
+    padding: 0.5rem;
+    color: rgb(226, 172, 53);
+    border-radius: 50px;
+    letter-spacing: 3px;
+}
+.llamar{
+    background-color: rgb(67,101,193);
+    color: white;
+    width: max-content;
+    padding: 0.5rem;
+    border-radius: 50px;
+    font-weight: 800;
+    font-size: 1.3rem;
+}
+.dudas{
+    text-decoration: none;
+    color: rgb(14,17,59);
+    background-color: #fff;
+    border: 1px solid rgb(14,17,59);
+    padding:1rem;
+    border-radius: 50px;
+    width: max-content;
+}
+.subtitle{
+    font-size: 0.8rem;
+}
+.txt{
+    font-size: 0.689rem;
+}
+.right {
+    display: flex;
+    flex-direction: column;
+    color: rgb(14,17,59);
+  }
+  
+  .palabras {
+    display: flex;
+    align-items: baseline;
+    gap: 10px;
+  }
+  
+  .firstCol,
+  .secndCol,
+  .terzCol {
+    flex: 1;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .aRapido {
+    margin-bottom: 10px;
+  }
+.sCeapro{
+    text-decoration: none;
+    color: rgb(14,17,59);
+}
+  
